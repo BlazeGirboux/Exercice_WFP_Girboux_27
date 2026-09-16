@@ -1,0 +1,15 @@
+﻿<Window x:Class="Exercice_WPF_Girboux.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercice_WPF_Girboux"
+        mc:Ignorable="d"
+        Title="Exercice WPF" Height="450" Width="800">
+    <Grid>
+        <Button Content="Up Left" Width="150" Height="50" Background="#FFCECECE" FontWeight="Bold" Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Button Content="Down Left" Width="150" Height="50" Background="#FFCECECE" FontWeight="Bold" Foreground="#FF0079FF" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        <Button Content="Up Right" Width="150" Height="50" Background="#FFCECECE" FontWeight="Bold" Foreground="#FF34F500" HorizontalAlignment="Right" VerticalAlignment="Top" />
+        <Button Content="Down Right" Width="150" Height="50" Background="#FFCECECE" FontWeight="Bold" Foreground="#FFAB00FF" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>
